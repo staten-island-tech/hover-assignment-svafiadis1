@@ -1,0 +1,27 @@
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+.gallery-parent {
+  text-align: center;
+  margin: 0 auto;
+  height: 4rem;
+}
+
+.gallery {
+  position: relative;
+}
+
+.pd6-photo {
+  height: 20rem;
+  position: absolute;
+}
+/*# sourceMappingURL=style.css.map */
