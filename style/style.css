@@ -97,7 +97,7 @@ body {
           transform: scale(1.3);
   -webkit-box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
           box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
-  background-color: blue;
+  background-color: #00BCD4;
 }
 
 .click-me-container {
@@ -107,12 +107,12 @@ body {
 }
 
 .click-me-button {
-  background-color: red;
+  background-color: #80DEEA;
   width: 20rem;
   height: 10rem;
   position: relative;
   border-radius: 3rem;
-  top: 1rem;
+  top: 12rem;
   left: 10rem;
   -webkit-transition: .2s;
   transition: .2s;
@@ -124,5 +124,35 @@ body {
   color: white;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   top: 2.5rem;
+}
+
+.wobble-container {
+  margin: 0 auto;
+  width: 40rem;
+  height: 60rem;
+}
+
+.wobble-button {
+  position: relative;
+  top: 1rem;
+  right: 4rem;
+  width: 50rem;
+  height: 20rem;
+  background-color: red;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.wobble-text {
+  position: relative;
+  font-size: 8rem;
+  color: white;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  top: 6rem;
+}
+
+.wobble-button:hover {
+  -webkit-transform: translate(0%, -20%);
+          transform: translate(0%, -20%);
 }
 /*# sourceMappingURL=style.css.map */
