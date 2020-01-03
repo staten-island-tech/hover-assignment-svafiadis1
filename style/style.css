@@ -59,7 +59,7 @@ body {
 .color-change {
   margin: 0 auto;
   width: 50vw;
-  height: 60rem;
+  height: 30rem;
 }
 
 .color {
@@ -72,24 +72,20 @@ body {
   height: 30rem;
   position: absolute;
   top: 5rem;
-  left: 25rem;
+  left: 20rem;
   border-radius: 5px;
 }
 
 .color:hover {
   -webkit-transform: scale(0.8);
           transform: scale(0.8);
-  -webkit-filter: blur(0);
-          filter: blur(0);
-  -webkit-filter: grayscale(0%) drop-shadow(10px);
-          filter: grayscale(0%) drop-shadow(10px);
+  -webkit-filter: blur(0) grayscale(0%) drop-shadow(10px);
+          filter: blur(0) grayscale(0%) drop-shadow(10px);
 }
 
 .color:not(:hover) {
-  -webkit-filter: blur(2px);
-          filter: blur(2px);
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+  -webkit-filter: blur(2px) grayscale(100%);
+          filter: blur(2px) grayscale(100%);
 }
 
 .click-me-button:hover {
@@ -103,7 +99,7 @@ body {
 .click-me-container {
   margin: 0 auto;
   width: 40rem;
-  height: 60rem;
+  height: 30rem;
 }
 
 .click-me-button {
@@ -112,7 +108,7 @@ body {
   height: 10rem;
   position: relative;
   border-radius: 3rem;
-  top: 12rem;
+  top: 22rem;
   left: 10rem;
   -webkit-transition: .2s;
   transition: .2s;
@@ -134,11 +130,10 @@ body {
 
 .wobble-button {
   position: relative;
-  top: 1rem;
+  top: 10rem;
   right: 4rem;
   width: 50rem;
   height: 20rem;
-  background-color: red;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
@@ -146,13 +141,38 @@ body {
 .wobble-text {
   position: relative;
   font-size: 8rem;
-  color: white;
+  color: #01579B;
   font-family: 'M PLUS Rounded 1c', sans-serif;
-  top: 6rem;
+  top: 4rem;
 }
 
 .wobble-button:hover {
   -webkit-transform: translate(0%, -20%);
           transform: translate(0%, -20%);
+  -webkit-filter: drop-shadow(1rem 3rem 5px black);
+          filter: drop-shadow(1rem 3rem 5px black);
+}
+
+.rotate-container {
+  margin: 0 auto;
+  width: 40rem;
+  height: 50rem;
+}
+
+.rotate-button {
+  height: 30rem;
+  position: absolute;
+  left: 70rem;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-filter: opacity(50%);
+          filter: opacity(50%);
+}
+
+.rotate-button:hover {
+  -webkit-transform: scale(1.3) rotate(10deg);
+          transform: scale(1.3) rotate(10deg);
+  -webkit-filter: opacity(100%);
+          filter: opacity(100%);
 }
 /*# sourceMappingURL=style.css.map */
