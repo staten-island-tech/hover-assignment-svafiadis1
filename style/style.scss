@@ -67,13 +67,11 @@ body{
 .dog{
     height: 30rem;
     position: absolute;
-    top: 5rem;
-    left: 20rem;
     border-radius: 5px;
 }
 
 .color:hover{
-    transform: scale(0.8);
+    transform: scale(1.3);
     filter: blur(0) grayscale(0%) drop-shadow(10px);
 }
 
@@ -83,7 +81,7 @@ body{
 
 .click-me-button:hover{
     transform: scale(1.3);
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
     background-color: #00BCD4;
 }
 
@@ -149,7 +147,6 @@ body{
 .rotate-button{
     height: 30rem;
     position: absolute;
-    left: 70rem;
     transition: 0.2s;
     filter: opacity(50%);
 }
@@ -157,4 +154,10 @@ body{
 .rotate-button:hover{
     transform: scale(1.3) rotate(10deg);
     filter: opacity(100%)
+}
+
+.animation{
+    margin: 0 auto;
+    width: 40rem;
+    height: 50rem;
 }
