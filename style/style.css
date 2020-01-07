@@ -72,6 +72,7 @@ body {
   height: 30rem;
   position: absolute;
   border-radius: 5px;
+  left: 25rem;
 }
 
 .color:hover {
@@ -177,5 +178,75 @@ body {
   margin: 0 auto;
   width: 40rem;
   height: 50rem;
+}
+
+.animation-one {
+  width: 5rem;
+  height: 5rem;
+  background-color: red;
+  -webkit-animation-name: test;
+          animation-name: test;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes test {
+  0% {
+    background-color: red;
+    right: 0px;
+    bottom: 0px;
+  }
+  25% {
+    background-color: orange;
+    right: 1rem;
+    bottom: 0px;
+  }
+  50% {
+    background-color: yellow;
+    right: 1rem;
+    bottom: 1rem;
+  }
+  75% {
+    background-color: pink;
+    right: 0px;
+    bottom: 1rem;
+  }
+  100% {
+    background-color: purple;
+    right: 0px;
+    bottom: 0px;
+  }
+}
+
+@keyframes test {
+  0% {
+    background-color: red;
+    right: 0px;
+    bottom: 0px;
+  }
+  25% {
+    background-color: orange;
+    right: 1rem;
+    bottom: 0px;
+  }
+  50% {
+    background-color: yellow;
+    right: 1rem;
+    bottom: 1rem;
+  }
+  75% {
+    background-color: pink;
+    right: 0px;
+    bottom: 1rem;
+  }
+  100% {
+    background-color: purple;
+    right: 0px;
+    bottom: 0px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
