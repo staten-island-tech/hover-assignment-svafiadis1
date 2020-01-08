@@ -1,0 +1,43 @@
+.gallery-parent{
+    //text-align: center;
+    margin: 0 auto;
+    width: 40rem;
+    height: 60rem;
+}
+
+.gallery{
+    position: relative;
+}
+
+.panda{
+    top: 13rem;
+    left: 0;
+}
+
+.car{
+    top: 20rem;
+    right: -20rem;
+}
+
+.mustard{
+    top: 4rem;
+    left: 65%;
+}
+
+.pd6-photo{
+    height: 20rem;
+    position: absolute;
+    transition: all 0.4s;
+}
+
+.pd6-photo:hover{
+    transform: scale(1.3);
+    outline: 1rem solid #222;
+    outline-offset: 1rem;
+    z-index: 2;
+}
+
+.gallery:hover .pd6-photo:not(:hover){
+    transform: scale(0.5);
+    opacity: 0.3;
+}

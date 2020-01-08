@@ -1,0 +1,27 @@
+.wobble-container{
+    margin: 0 auto;
+    width: 40rem;
+    height: 60rem;
+}
+
+.wobble-button{
+    position: relative;
+    top: 10rem;
+    right: 4rem;
+    width: 50rem;
+    height: 20rem;
+    transition: 0.2s;
+}
+
+.wobble-text{
+    position: relative;
+    font-size: 8rem;
+    color: #01579B;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    top: 4rem;
+}
+
+.wobble-button:hover{
+    transform: translate(0%,-20%);
+    filter: drop-shadow(1rem 3rem 5px black);
+}
